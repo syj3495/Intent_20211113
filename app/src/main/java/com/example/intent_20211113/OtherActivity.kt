@@ -11,12 +11,11 @@ class OtherActivity : AppCompatActivity() {
         setContentView(R.layout.activity_other)
 
         btnReturnToMain.setOnClickListener {
+//
+//            val returnIntent = Intent(this,MainActivity::class.java)
+//            startActivity(returnIntent)
 
-            val returnIntent = Intent(this,MainActivity::class.java)
-
-            startActivity(returnIntent)
-
-
+                finish()
 
         }
 
