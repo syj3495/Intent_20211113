@@ -40,5 +40,12 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+        btnEditNickname.setOnClickListener {
+
+            val
+
+
+
+        }
     }
 }
